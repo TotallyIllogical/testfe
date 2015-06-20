@@ -205,8 +205,14 @@ nav.navbar-default {
 }
 
 .first-teaser div {
-	padding-top: 62px;
-	padding-bottom: 62px;
+	@media (min-width: $screen-sm) {
+		padding-top: 62px;
+		padding-bottom: 62px;
+	}
+	@media (max-width: $screen-sm) {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
 	.big-circle-icon {
 		border: 3px solid black;
 	  	border-radius: 50%; 
@@ -236,8 +242,14 @@ button.btn-default:hover{
 	border-color: $link-color;
 }
 .second-teaser div {
-	padding-top: 62px;
-	padding-bottom: 100px;
+	@media (min-width: $screen-sm) {
+		padding-top: 62px;
+		padding-bottom: 100px;
+	}
+	@media (max-width: $screen-sm) {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
 	color: $almostblack;
 }
 
@@ -290,8 +302,29 @@ button.btn-default:hover{
 .bluefooter {
 	background-color: $babyblue; 
 	color: white;
-	padding-top: 74px;
-	padding-bottom: 24px;
+	@media (min-width: $screen-sm) {
+		padding-top: 74px;
+		padding-bottom: 48px;
+		#contact {
+			padding-bottom: 40px;
+			font-size: 18px;
+			.icon {
+				font-size: 35px;
+			}
+		}
+	}
+	@media (max-width: $screen-sm) {
+		padding-top: 24px;
+		#adress-area, #form-area, #social-area, #contact  {
+			padding-bottom: 24px;
+		}
+		#contact {
+			font-size: 16px;
+			.icon {
+				font-size: 25px;
+			}
+		}
+	}
 	a {
 		color: white;
 		&:hover {
@@ -299,6 +332,7 @@ button.btn-default:hover{
 		}
 	}
 	form {
+		padding: 0px;
 		::-webkit-input-placeholder { color: $footer-placeholder; }
 		::-moz-placeholder { color: $footer-placeholder; } /* firefox 19+ */
 		:-ms-input-placeholder { color: $footer-placeholder; } /* ie */
@@ -314,6 +348,9 @@ button.btn-default:hover{
 			width: 100%;
 			margin-bottom: 10px;
 		}
+		button {
+			margin-bottom: 24px;
+		}
 	}
 	h3 {
 		font-size: 24px;
@@ -323,20 +360,10 @@ button.btn-default:hover{
 	}
 	#adress-area {
 		font-size: 22px;
-		padding-bottom: 24px;
-
-	}
-	#form-area {
-		padding: 0px 0px 24px;
-	}
-	#social-area {
-		padding-bottom: 24px;
 	}
 	#contact {
-		font-size: 18px;
-		padding-bottom: 40px;
 		.icon {
-			font-size: 35px;
+			padding-right: 10px;
 			text-align: center;
 		}
 	}
