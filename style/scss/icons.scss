@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Icomoon';
+  src: url(../icons/fonts/icons.ttf);
+}
+.icon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Icomoon';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-down:before {
+	content: "\f05b";
+}
+.icon-home:before {
+	content: "\f08d";
+}
+.icon-sitemap:before {
+	content: "\f020";
+}
+.icon-person:before {
+	content: "\f018";
+}
+.icon-search:before {
+	content: "\f02e";
+}
+.icon-database:before {
+	content: "\f096";
+}
+.icon-briefcase:before {
+	content: "\f0d3";
+}
+.icon-dashboard:before {
+	content: "\f07d";
+}
+.icon-chevron-left:before {
+	content: "\f0a4";
+}
+.icon-chevron-right:before {
+	content: "\f078";
+}
+.icon-mobile:before {
+	content: "\f038";
+}
+.icon-email:before {
+	content: "\f0be";
+}
+.icon-facebook:before {
+	content: "\e604";
+}
+.icon-vimeo:before {
+	content: "\e600";
+}
+.icon-twitter:before {
+	content: "\e601";
+}
+.icon-pinterest:before {
+	content: "\e602";
+}
+.icon-linkedin:before {
+	content: "\e603";
+}

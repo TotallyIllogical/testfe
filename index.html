@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Pixelant Frontend Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="favicons/pixelant.ico">
+	<link rel="apple-touch-icon-precomposed" href="favicons/phone.ico">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="favicons/cute.png">
+	<link href="style/style.css" rel="stylesheet">
+	<script async src="js/script.min.js"></script>
+</head>
+
+<body>
+	
+	<header>
+		<!-- Navigationbar -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+					<!-- Page Menu -->
+					<ul class="nav navbar-nav navbar-left">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features<span class="icon icon-down"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Feature #1</a></li>
+								<li><a href="#">Feature #2</a></li>
+								<li><a href="#">Feature #3</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions<span class="icon icon-down"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Solution #1</a>
+								</li>
+								<li>
+									<a href="#">Solution #2</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#">Special Solution</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">News</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+					<!-- End of Page Menu-->
+
+					<!-- Tools Menu-->
+					<hr class="visible-xs">
+					<ul class="nav navbar-nav navbar-right" id="desktop-menu">
+						
+						<li>
+							<a href="#"><span class="icon icon-home"></span>Home</a>
+						</li>
+						<li>
+							<a href="#"><span class="icon icon-sitemap"></span>Sitemap</a>
+						</li>
+						<li>
+							<a href="#"><span class="icon icon-person"></span>Login</a>
+						</li>
+					</ul>
+					<!-- End of Tools Menu-->
+
+				</div>
+			</div>
+		</nav>
+		<!-- End of Navigationbar -->
+
+		<!-- Logo and Search Area -->
+		<div class="container" id="logo-part">
+			<div class="row">
+				<div class="col-sm-8"> 
+					<h1 id="site-logo" class="bounce">Site Logo</h1> 
+				</div>
+				<div class="col-sm-4">
+					<form  id="header-search" class="form-horizontal">
+						<div class="form-group">
+							<label for="hsearch"><span class="icon icon-search"></span></label>
+							<input id="hsearch" type="text" placeholder="Search">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- End of Logo and Search Area -->
+
+	</header>
+
+	<!-- Content -->
+
+	<!-- Jumbotron -->
+	<div class="jumbotron">
+		<div class="container">
+			<div class="col-sm-8 col-sm-offset-3" id="overlayed-text">
+				<h1>Cupcake Ipsum</h1>
+				<p>
+					Toffee I love jelly-o fruitcake donut carrot cake. Jelly-o marshmallow cake topping oat cake gummies cheesecake I love gummi bears. Liquorice bear claw tiramisu pastry jelly bonbon.
+				</p>
+				<p>
+					<a class="btn btn-primary" href="#" role="button"><b>CALL TO ACTION</b></a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- End of Jumbotron -->
+
+	<div class="container">
+		<!-- Teaserboxes row #1 -->
+		<div class="row first-teaser">
+			<div class="col-sm-4 text-center">
+				<span class="icon icon-database big-circle-icon green"></span><br>
+				<h3>Our Services</h3>
+				<p>Cupcake ipsum dolor sit amet dragée bear claw. Gingerbread liquorice jujubes muffin I love sweet roll sweet roll icing. Ice cream halvah sweet roll.</p>
+				<button class="btn btn-default">Read more</button>
+			</div>
+			<div class="col-sm-4 text-center">
+				<span class="icon icon-briefcase big-circle-icon blue"></span><br>
+				<h3>Our Services</h3>
+				<p>Toffee powder halvah. Cake jelly-o oat cake halvah candy canes I love donut fruitcake wafer. Fruitcake cake fruitcake jelly beans gummi bears sesame snaps.</p>
+				<button class="btn btn-default">Read more</button>
+			</div>
+			<div class="col-sm-4 text-center">
+				<span class="icon icon-dashboard big-circle-icon red"></span><br>
+				<h3>Our Services</h3>
+				<p>Cupcake ipsum dolor. Sit amet cake marshmallow cheesecake chocolate. Cotton candy jelly beans sweet icing donut halvah I love candy.</p>
+				<button class="btn btn-default">Read more</button>
+			</div>
+		</div>
+		<!-- End of Teaserboxes row #1 -->
+
+		<hr>
+
+		<!-- Teaserboxes row #2 -->
+		<div class="row second-teaser">
+			<div class="col-sm-4">
+				<img src="images/steamworkshop_webupload_previewfile_302454168_preview.jpg" alt="green mountain" class="img-responsive"><br>
+				<h3>Our Services</h3>
+				<p>Chocolate bar tart donut tart chocolate bar jelly-o cookie gummies bear claw. Icing cookie jelly-o jujubes. Liquorice gingerbread marzipan chupa chups oat cake muffin croissant gingerbread bear claw.</p>
+				<p><a href="#">Read more</a></p>
+			</div>
+			<div class="col-sm-4">
+				<img src="images/mountain.jpg" alt="green mountain" class="img-responsive"><br>
+				<h3>Our Services</h3>
+				<p>Muffin croissant fruitcake toffee chocolate cake bear claw pudding lollipop marzipan. Croissant lemon drops soufflé marshmallow cupcake. I love bonbon fruitcake wafer cupcake sweet roll cake.</p>
+				<p><a href="#">Read more</a></p>
+			</div>
+			<div class="col-sm-4">
+				<img src="images/mountain-193v.jpg" alt="green mountain" class="img-responsive"><br>
+				<h3>Our Services</h3>
+				<p>Jelly beans cake I love chocolate bar oat cake soufflé marzipan lemon drops chocolate cake. I love biscuit liquorice jelly-o I love fruitcake pudding. Gummies gummi bears bonbon sugar plum sugar plum.</p>
+				<p><a href="#">Read more</a></p>
+			</div>
+		</div>
+
+		<!-- End of Teaserboxes row #2 End -->
+
+		<!-- Desktop Logo Slider -->
+		<div class="hidden-xs">
+			<div id="logo-slider" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="row item active">
+						<div class="col-xs-2 col-xs-offset-1 slider-image">
+							<img src="images/google.jpg" alt="google" class="img-responsive">
+						</div>
+						<div class="col-xs-3 slider-image">
+							<img src="images/intel_logo.jpg" alt="Intel" class="img-responsive">
+						</div>
+						<div class="col-xs-2 slider-image">
+							<img src="images/Logo-IBM.gif" alt="ibm" class="img-responsive">
+						</div>
+						<div class="col-xs-3 slider-image">
+							<img src="images/samsung-logo.png" alt="samsung" class="img-responsive">
+						</div>
+					</div>
+					<div class="row item">
+						<div class="col-xs-2 col-xs-offset-1 slider-image">
+							<img src="images/google.jpg" alt="google" class="img-responsive">
+						</div>
+						<div class="col-xs-3 slider-image">
+							<img src="images/intel_logo.jpg" alt="Intel" class="img-responsive">
+						</div>
+						<div class="col-xs-2 slider-image">
+							<img src="images/Logo-IBM.gif" alt="ibm" class="img-responsive">
+						</div>
+						<div class="col-xs-3 slider-image">
+							<img src="images/samsung-logo.png" alt="samsung" class="img-responsive">
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#logo-slider" role="button" data-slide="prev">
+					<span class="icon icon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#logo-slider" role="button" data-slide="next">
+					<span class="icon icon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<!-- End of Desktop Logo Slider End -->
+
+		<!-- Mobile Logo Slider -->
+		<div class="visible-xs">
+			<div id="mini-logo-slider" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="images/google.jpg" alt="google" class="img-responsive center-block">
+					</div>
+					<div class="item">
+						<img src="images/intel_logo.jpg" alt="Intel" class="img-responsive center-block">
+					</div>
+					<div class="item">
+						<img src="images/Logo-IBM.gif" alt="ibm" class="img-responsive center-block">
+					</div>
+					<div class="item">
+						<img src="images/samsung-logo.png" alt="samsung" class="img-responsive center-block">
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#mini-logo-slider" role="button" data-slide="prev">
+					<span class="icon icon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#mini-logo-slider" role="button" data-slide="next">
+					<span class="icon icon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<!-- End of Mobile Logo Slider -->
+
+
+	</div> <!-- /container -->
+	<!-- End of Content -->
+
+	<footer>
+		<div class="bluefooter">
+			<div class="container">
+				<div class="col-sm-3" id="adress-area">
+					<h3>CONTACT US</h3>
+					<p>
+						PIXELANT AB<br>
+						Regementsgatan 8<br>
+						SE 211 42 Malmö<br>
+						Sweden<br>
+					</p>
+				</div>
+				<div class="col-sm-4" id="form-area">
+					<form>
+						<input type="text" placeholder="Name">
+						<input type="email" placeholder="Email">
+						<textarea rows="3"></textarea>
+						<button type="submit" class="btn btn-footer pull-right">SUBMIT</button>
+					</form>
+				</div>
+				<div class="col-sm-5" id="social-area">
+					<div id="contact">
+						<div class="row">
+							<div class="col-xs-1">
+								<span class="icon icon-mobile"></span>
+							</div>
+							<div class="col-xs-11">
+								<p>CALL US ON <a href="tel:+46402607700"><b>+46 (0) 40 260 77 00</b></a></p><br>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-1">
+								<span class="icon icon-email"></span>
+							</div>
+							<div class="col-xs-11">
+								<p>EMAIL US AT <a href="mailto:info@mail.com"><b>info@mail.com</b></a>
+								</div>
+							</div>
+						</div>
+						<h3>FOLLOW US</h3>
+						<p id="social">
+							<span class="icon icon-facebook"></span>
+							<span class="icon icon-vimeo"></span>
+							<span class="icon icon-twitter"></span>
+							<span class="icon icon-pinterest"></span>
+							<span class="icon icon-linkedin"></span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="col-sm-12" id="copyright">
+					All rights reserved © 2015
+				</div>
+			</div>
+
+		</footer>
+
+	</body>
+</html>

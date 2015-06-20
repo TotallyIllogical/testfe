@@ -1,0 +1,51 @@
+.icon-briefcase:before {
+	content: "\f0d3";
+}
+.icon-chevron-left:before {
+	content: "\f0a4";
+}
+.icon-chevron-right:before {
+	content: "\f078";
+}
+.icon-dashboard:before {
+	content: "\f07d";
+}
+.icon-database:before {
+	content: "\f096";
+}
+.icon-device-mobile:before {
+	content: "\f038";
+}
+.icon-git-branch:before {
+	content: "\f020";
+}
+.icon-home:before {
+	content: "\f08d";
+}
+.icon-mention:before {
+	content: "\f0be";
+}
+.icon-person:before {
+	content: "\f018";
+}
+.icon-search:before {
+	content: "\f02e";
+}
+.icon-triangle-down:before {
+	content: "\f05b";
+}
+.icon-social-vimeo-circular:before {
+	content: "\e600";
+}
+.icon-social-twitter-circular:before {
+	content: "\e601";
+}
+.icon-social-pinterest-circular:before {
+	content: "\e602";
+}
+.icon-social-linkedin-circular:before {
+	content: "\e603";
+}
+.icon-social-facebook-circular:before {
+	content: "\e604";
+}
